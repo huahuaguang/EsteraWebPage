@@ -1,0 +1,16 @@
+
+
+/* footer */
+.fsend{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.other_information{
+    color: #9999;
+    font-size: smaller;
+}
+
+.switch_content{
+    transition: scale(0.5);
+}
