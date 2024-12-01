@@ -1,0 +1,49 @@
+body{
+    background-color: var(--light-color);
+}
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: var(--font-color);
+}
+hr{
+    height: 3px;
+    border: 0;
+    border-top: 2px solid var(--dark-color);
+    width: 30%;
+}
+section{
+    display: flex;
+    padding: 0 26%;
+    flex-direction: column;
+}
+p{
+    text-indent: 2em;
+}
+aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+aside>h4{
+    padding: 0 26%;
+}
+.recommendation{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+    width: 50%;
+    height: 20%;
+    color: var(--dark-color);
+    background-color: white;
+}

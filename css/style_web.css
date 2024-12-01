@@ -4,13 +4,22 @@
     --main-color:#c9e9f0;
     --medium-color:#9acdd9;
     --dark-color:#68a7b6;
-    --nfont-color: #3b3b3b;
+    --font-color: #3b3b3b;
     --font-family: Garamond;
+    
 }
 body{
     background-color: var(--background-color);
     display: block;
     margin: 8px 20px;
+}
+p{
+    margin: 4px;
+    color: var(--font-color);
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 input:focus{
     outline: none;
@@ -24,6 +33,10 @@ a:hover{
 .hsearch:hover{
     background-color: rgb(255, 255, 255);
 }
-.mblog:hover{
+.blogs a:hover{
+    background-color: transparent;
+    color: black;
+}
+.blogs a>div:hover{
     background-color: var(--medium-color);
 }

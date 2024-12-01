@@ -11,6 +11,43 @@
     column-gap: 3px;
     flex: 1;
 }
+.mleft_block{
+    margin: 3px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:var(--main-color);
+}
+
+/* information part */
+#information{
+    display: flex;
+    flex-direction: column;
+
+}
+#profile{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#profile>img{
+    border-radius: 50%;
+    max-width: 40%;
+    aspect-ratio: 1 / 1;
+    border: 2px solid var(--dark-color);
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+.link a:hover{
+    background-color: transparent;
+}
+
+/* classifiction part */
 .clf_content{
     display: flex;
     flex-direction: column;
@@ -38,12 +75,7 @@
 }
 
 /* small parts */
-.mleft_block{
-    margin: 3px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    background-color:var(--main-color);
-}
+
 
 .mright{
     display: flex;
@@ -76,6 +108,19 @@
     background-color: var(--background-color);
     
 }
+.mblog div:nth-child(1){
+    font: bolder 1.3em Monaco;
+}
+.mblog div:nth-child(2){
+    margin-top: 6px;
+    color: var(--font-color);
+    font: 0.9em var(--font-family);
+}
+.mblog div:nth-child(3){
+    margin-top: 6px;
+    font: 1em Times;
+}
+
 /* projects */
 .projects>div{
     display: flex;
