@@ -1,0 +1,61 @@
+/* main */
+button{
+    width: 20%; 
+    border: none;
+    border-radius: 12px;
+    background-color: var(--main-color);
+    padding: 8px;
+    color: var(--font-color);
+    font: bold 1.5em var(--font-family);
+    margin-top: 8px;
+}
+button:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transform: scale(1.1);
+}
+.vanished{
+    animation: vanished 0.5s;
+}
+.emerged{
+    animation: emerged 0.5s;
+}
+@keyframes vanished {
+    0%{
+        opacity: 1;
+    }30%{
+        opacity: 70%;
+    }50%{
+        opacity: 50%;
+    }100%{
+        opacity: 0;
+    }
+}
+@keyframes emerged {
+    0%{
+        opacity: 0;
+    }30%{
+        opacity: 10%;
+    }50%{
+        opacity: 20%;
+    }100%{
+        opacity: 1;
+    }
+}
+/* animation part */
+.ani_body{
+    height: 100vh;
+}
+.ani_background{
+    background: url(../images/shimmering.png) no-repeat;
+    background-size: cover;
+}
+.back_btn{
+    background-color: transparent;
+    height: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}.back_btn:hover{
+    background-color: transparent;
+}
